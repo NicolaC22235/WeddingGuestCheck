@@ -2,6 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/javascript.js to edit this template
  */
+
 //Nicola Janse van Rensburg_C22235
 
 window.alert('Javascript is linked');
@@ -65,6 +66,4 @@ window.alert('Javascript is linked');
 
       document.getElementById("rsvpForm").reset();
     });
-
-
 
