@@ -1,0 +1,102 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on :04 May 2023, 14:09:12
+    Author     : nicol
+*/
+
+/* Nicola Janse van Rensburg_C22235*/
+
+body{
+    background-color:#90b494ff;
+};
+header {
+  background-color: #90b494ff ;
+  padding: 5px;
+  text-align: center;
+
+}
+  #greeting {
+      text-align: center;
+      font-size: 24px;
+      padding: 20px;
+      color: white;
+    }
+
+
+h1 {
+    text-align: center;
+  margin-top: 10px;
+ font-size:72pt;
+  color:white;
+}
+h2 {
+   color:black;
+  text-align: center;
+  font-size:24pt;
+}
+h3 {
+  color:#313628;
+ font-size:18pt;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td {
+  text-align: center;
+}
+
+
+
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="submit"],
+button {
+  padding: 5px 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  position:fixed;
+  bottom: 0px;
+  width: 100%;
+
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  color: black;
+}
+    
+

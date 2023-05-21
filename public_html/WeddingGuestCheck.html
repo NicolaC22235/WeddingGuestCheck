@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+
+<html>
+<head>
+  <title>WeddingGuestCheck</title>
+  <link rel="stylesheet" href="WeddingGuestCheck.css">
+</head>
+ <header>
+    <img src="Images/header.png" alt="Wedding table setting" width="100%" height="100%">
+    <h1>WeddingGuestCheck</h1>
+  </header>
+<body>
+
+    <div id="greeting"></div>
+    
+         <h2>RSVP Form</h2>
+  <form id="rsvpForm">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" required><br><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" required><br><br>
+
+    <label for="contactDetails">Contact Details:</label>
+    <input type="text" id="contactDetails" required><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+    
+  <h2>Guest List</h2>
+  <h3>Accepted</h3>
+  <table id="acceptedTable">
+    <tr>
+      <th>Name</th>
+      <th>Last Name</th>
+      <th>Contact Details</th>
+    </tr>
+  </table>
+
+  <h3>Waiting for Response</h3>
+  <table id="waitingTable">
+    <tr>
+      <th>Name</th>
+      <th>Last Name</th>
+      <th>Contact Details</th>
+    </tr>
+  </table>
+
+  <h3>Declined</h3>
+  <table id="declinedTable">
+    <tr>
+      <th>Name</th>
+      <th>Last Name</th>
+      <th>Contact Details</th>
+    </tr>
+  </table>
+  <script src="WeddingGuestCheck.js"></script>
+</body>
+<br>
+<br>
+ <footer>
+    <p>&copy; 2023 WeddingGuestCheck. All rights reserved.</p>
+  </footer>
+</html>
